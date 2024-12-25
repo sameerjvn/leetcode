@@ -12,6 +12,8 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        # time complexity: O(m + n)
+        # space complexity: O(1)
         start = curr = ListNode()
 
         while list1 and list2:
