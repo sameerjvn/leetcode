@@ -10,6 +10,8 @@ class TreeNode:
 
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        # time complexity: O(n)
+        # space complexity: O(n) for skewed tree, O(log(n)) for balanced tree
         if not root:
             return None
 
